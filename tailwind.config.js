@@ -23,6 +23,7 @@ export default {
         ido: "1px 2px 15px #02bf02",
         mexc: "1px 2px 15px #4083b1",
         fiat: "1px 2px 15px white",
+        round: "0 10px 30px 0 rgba(5, 16, 44, .15)",
       },
       keyframes: {
         spinAnti: {
