@@ -4,7 +4,7 @@ import Button from "../components/Button";
 const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
   return (
-    <div className="wrapper bg-dark shadow-header">
+    <div className="wrapper sticky top-0 left-0 z-50 bg-dark shadow-header">
       <nav className="contain justify-between min-h-[55px] items-center gap-2">
         <div className="flex justify-start items-center gap-1">
           <img src="/logo.png" className="max-w-[20px] object-contain" alt="" />

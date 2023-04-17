@@ -14,6 +14,7 @@ export default {
       },
       backgroundImage: {
         yellowGr: "linear-gradient(to right, #f1b90c, #F0B90B)",
+        title: "linear-gradient(180deg, #1a1a1a 0%, #eef3fc 100%)",
       },
       boxShadow: {
         header: "0px 1px 10px 0px rgb(0 0 0 / 50%)",
@@ -22,6 +23,16 @@ export default {
         ido: "1px 2px 15px #02bf02",
         mexc: "1px 2px 15px #4083b1",
         fiat: "1px 2px 15px white",
+      },
+      keyframes: {
+        spinAnti: {
+          "0%": { transform: "rotate(360deg)" },
+          "100%": { transform: "rotate(0deg)" },
+        },
+      },
+      animation: {
+        spinClock: "spin 15s linear infinite 0s",
+        spinAntiClock: "spinAnti 10s linear infinite 0s",
       },
     },
   },

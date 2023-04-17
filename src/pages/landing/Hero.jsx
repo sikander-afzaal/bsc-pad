@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="wrapper py-[40px] md:py-[100px]">
       <div className="contain flex-col gap-4 sm:gap-6 justify-center items-center text-center">
-        <h2 className="text-xl sm:text-[30px] lg:text-[40px] font-bold uppercase text-textGray">
+        <h2 className="text-xl leading-[1.3] sm:text-[30px] lg:text-[40px] font-bold uppercase text-textGray">
           BSCPAD IS THE FIRST DECENTRALIZED IDO PLATFORM FOR THE BINANCE SMART
           CHAIN NETWORK.
         </h2>
