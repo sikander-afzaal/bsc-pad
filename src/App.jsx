@@ -20,7 +20,7 @@ const App = () => {
     <>
       <img
         src="/bg-map.png"
-        className="fixed top-0 left-0 w-full h-full bg-cover opacity-30 -z-10"
+        className="fixed top-0 left-0 w-full  h-full bg-cover opacity-10 brightness-0 saturate-50 -z-10"
         alt=""
       />
       <Particles
