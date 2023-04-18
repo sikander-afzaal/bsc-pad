@@ -1,9 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 import Landing from "./pages/landing/Index";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const App = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -102,6 +104,12 @@ const App = () => {
       <Header />
       <Landing />
       <Footer />
+      <button
+        onClick={() => window.scrollTo(0, 0)}
+        className="rounded-full z-20 text-xl sm:text-2xl cursor-pointer aspect-square grid place-items-center bg-white text-primaryYellow w-[40px] sm:w-[50px] fixed bottom-4 sm:bottom-8 right-4 sm:right-8"
+      >
+        <FontAwesomeIcon icon={faArrowUp} />
+      </button>
     </>
   );
 };
