@@ -74,7 +74,7 @@ const Contact = () => {
                 href="#"
                 target="blank"
               >
-                www.sthpad.com
+                www.pulsepad.com
               </a>
             </div>
           </div>

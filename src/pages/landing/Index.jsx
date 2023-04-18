@@ -11,8 +11,8 @@ const Landing = () => {
       <Hero />
       <About />
       <Tier />
-      <Partners />
-      <Legal />
+      {/* <Partners /> */}
+      {/* <Legal /> */}
       <Contact />
     </div>
   );

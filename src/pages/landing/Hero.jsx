@@ -11,11 +11,11 @@ const Hero = () => {
     <div className="wrapper py-[40px] md:py-[100px]">
       <div className="contain flex-col gap-4 sm:gap-6 justify-center items-center text-center">
         <h2 className="text-xl leading-[1.3] sm:text-[30px] lg:text-[40px] font-bold uppercase text-textGray">
-          sthPAD IS THE FIRST DECENTRALIZED IDO PLATFORM FOR THE BINANCE SMART
+          pulsepad IS THE FIRST DECENTRALIZED IDO PLATFORM FOR THE BINANCE PULSE
           CHAIN NETWORK.
         </h2>
         <p className="text-textGray opacity-60 text-base sm:text-lg lg:text-xl max-w-[800px]">
-          sthPad will empower crypto currency projects with the ability to
+          pulsepad will empower crypto currency projects with the ability to
           distribute tokens and raise liquidity.
         </p>
         <div className="flex justify-center items-center gap-5 flex-wrap w-full">
@@ -23,25 +23,12 @@ const Hero = () => {
             View All Projects
           </button>
           <button className="bg-[#1FC7D4] sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px]  px-5 flex justify-center items-center gap-2 py-[10px] hover:shadow-pancakeSwap transition-shadow">
-            BUY ON{" "}
-            <img
-              src="/pancake-swap.png"
-              className="h-5 object-contain"
-              alt=""
-            />{" "}
-            PANKCAKE SWAP
+            BUY ON UNISWAP
           </button>
           <button className="bg-[#02bf02] sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px] hover:shadow-ido transition-shadow">
             Apply for ido
           </button>
-          <button className="bg-[#0d202d] sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px] hover:shadow-mexc flex justify-center items-center gap-2 transition-shadow">
-            <img src="/mexc.svg" className="h-5 object-contain" alt="" /> buy on
-            mexc
-          </button>
-          <button className="bg-[#004655] sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px] hover:shadow-mexc flex justify-center items-center gap-2 transition-shadow">
-            <img src="/gateio.svg" className="h-5 object-contain" alt="" /> Buy
-            on gate.io
-          </button>
+
           <button className="bg-white max-w-[350px] sm:max-w-none  w-full sm:w-auto text-black uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px] hover:shadow-fiat flex justify-center items-center gap-2 transition-shadow">
             <img src="/fiat2bnb.png" className="h-5 object-contain" alt="" />{" "}
             buy with fiat

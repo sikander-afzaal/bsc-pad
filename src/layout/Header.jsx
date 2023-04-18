@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex justify-start items-center gap-1">
           <img src="/logo.png" className="max-w-[20px] object-contain" alt="" />
           <p className="text-[26px] text-primaryYellow font-bold leading-[1]">
-            STHPad
+            pulsepad
           </p>
         </div>
         <div
