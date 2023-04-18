@@ -6,9 +6,9 @@ const Tier = () => {
     <div className="wrapper py-[70px] md:py-[150px]">
       <div className="contain flex-col justify-center items-center gap-5">
         <div>
-          <Title title="THE BSCPAD TIERED SYSTEM" back="Tiered System" />
+          <Title title="THE sthPAD TIERED SYSTEM" back="Tiered System" />
           <p className="text-center text-textGray text-opacity-60 text-xl -mt-[30px] max-w-[800px]">
-            BSCPad will showcase a fixed tier system based on the number of
+            sthPad will showcase a fixed tier system based on the number of
             tokens staked. Lottery Tiers will share 20% of total raise and rest
             80% of the raise is assigned for guaranteed allocation tiers based
             on the pool weights assigned.
@@ -100,7 +100,7 @@ const Tier = () => {
               community members.
             </p>
             <p className="text-white text-opacity-60 ">
-              $BSCPAD is the next evolution of blockchain launchpads solving the
+              $sthPAD is the next evolution of blockchain launchpads solving the
               fundamental flaws that plague existing launchpads. This platform
               benefits all holders of the token and allows for fair launches
               giving traders of all sizes the opportunity to invest in the best

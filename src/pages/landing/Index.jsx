@@ -1,5 +1,8 @@
 import About from "./About";
+import Contact from "./Contact";
 import Hero from "./Hero";
+import Legal from "./Legal";
+import Partners from "./Partners";
 import Tier from "./Tier";
 
 const Landing = () => {
@@ -8,6 +11,9 @@ const Landing = () => {
       <Hero />
       <About />
       <Tier />
+      <Partners />
+      <Legal />
+      <Contact />
     </div>
   );
 };

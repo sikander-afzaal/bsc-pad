@@ -24,6 +24,7 @@ export default {
         mexc: "1px 2px 15px #4083b1",
         fiat: "1px 2px 15px white",
         round: "0 10px 30px 0 rgba(5, 16, 44, .15)",
+        contactIco: "0px 2px 15px 0px rgba(0, 0, 0, 0.5)",
       },
       keyframes: {
         spinAnti: {

@@ -11,11 +11,11 @@ const Hero = () => {
     <div className="wrapper py-[40px] md:py-[100px]">
       <div className="contain flex-col gap-4 sm:gap-6 justify-center items-center text-center">
         <h2 className="text-xl leading-[1.3] sm:text-[30px] lg:text-[40px] font-bold uppercase text-textGray">
-          BSCPAD IS THE FIRST DECENTRALIZED IDO PLATFORM FOR THE BINANCE SMART
+          sthPAD IS THE FIRST DECENTRALIZED IDO PLATFORM FOR THE BINANCE SMART
           CHAIN NETWORK.
         </h2>
         <p className="text-textGray opacity-60 text-base sm:text-lg lg:text-xl max-w-[800px]">
-          BSCPad will empower crypto currency projects with the ability to
+          sthPad will empower crypto currency projects with the ability to
           distribute tokens and raise liquidity.
         </p>
         <div className="flex justify-center items-center gap-5 flex-wrap w-full">
