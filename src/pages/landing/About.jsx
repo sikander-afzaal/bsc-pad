@@ -5,7 +5,7 @@ const About = () => {
     <div className="wrapper py-[70px] md:py-[150px]">
       <div className="contain  flex-col justify-start items-center gap-5">
         <Title title="About us" back="What and why" />
-        <div className="grid mt-6 grid-cols-1 xl:grid-cols-2 w-full gap-20 md:gap-[120px] xl:gap-5">
+        <div className="grid sm:mt-6 grid-cols-1 xl:grid-cols-2 w-full gap-20 md:gap-[120px] xl:gap-5">
           <div className="flex justify-start items-start flex-col gap-4">
             <div>
               <h4 className="uppercase text-white text-opacity-60 text-base font-medium">
