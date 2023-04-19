@@ -53,11 +53,11 @@ const About = () => {
               <div className=" absolute inset-0 border-4 border-solid rounded-full border-[rgba(255,255,255,0.1)] border-t-primaryYellow border-r-primaryYellow animate-spinClock"></div>
               <div className="absolute inset-10 border-4 border-solid rounded-full border-[rgba(255,255,255,0.1)] border-t-primaryYellow border-b-primaryYellow animate-spinAntiClock "></div>
             </div>
-            <img
+            {/* <img
               src="/about-img.png"
               className="w-full object-contain max-w-[400px] md:max-w-[580px]"
               alt=""
-            />
+            /> */}
           </div>
         </div>
       </div>
