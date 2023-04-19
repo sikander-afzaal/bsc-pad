@@ -8,7 +8,7 @@ const TierBox = ({
   weight,
 }) => {
   return (
-    <div className="flex flex-col text-center justify-start bg-[#1f1f21] rounded-[10px] shadow-round  p-[30px] w-full items-center gap-5 hover:scale-[1.03] transition-all duration-300">
+    <div className="flex border-2 border-primaryYellow border-solid border-opacity-80 flex-col text-center justify-start bg-[#1f1f21] rounded-[10px] shadow-round  p-[30px] w-full items-center gap-5 hover:scale-[1.03] transition-all duration-300">
       <p className="text-primaryYellow border-opacity-25 font-bold text-[26px] w-full text-center border-b border-solid border-textGray pb-4">
         {tier}
       </p>
