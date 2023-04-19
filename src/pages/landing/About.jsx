@@ -13,7 +13,7 @@ const About = () => {
               </h4>
               <h3 className="text-lg font-medium text-textGray ">
                 The pulse Launch Pad is the first decentralized IDO platform for
-                the Binance Smart Chain Network.
+                the Binance Pulse Chain Network.
               </h3>
               <p className="text-base text-white text-opacity-60">
                 pulsepad will empower crypto currency projects with the ability

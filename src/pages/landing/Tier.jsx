@@ -83,7 +83,7 @@ const Tier = () => {
               the fundamental flaws that plague existing launchpads. This
               platform benefits all holders of the token and allows for fair
               launches giving traders of all sizes the opportunity to invest in
-              the best upcoming Binance Smart Chain projects.
+              the best upcoming Binance Pulse Chain projects.
             </p>
           </div>
         </div>
