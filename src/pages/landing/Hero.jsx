@@ -29,10 +29,10 @@ const Hero = () => {
             Apply for ido
           </button>
 
-          <button className="bg-white max-w-[350px] sm:max-w-none  w-full sm:w-auto text-black uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px] hover:shadow-fiat flex justify-center items-center gap-2 transition-shadow">
+          {/* <button className="bg-white max-w-[350px] sm:max-w-none  w-full sm:w-auto text-black uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px] hover:shadow-fiat flex justify-center items-center gap-2 transition-shadow">
             <img src="/fiat2bnb.png" className="h-5 object-contain" alt="" />{" "}
             buy with fiat
-          </button>
+          </button> */}
         </div>
         <div className="flex flex-wrap justify-center items-center gap-4">
           <Button>
@@ -48,7 +48,7 @@ const Hero = () => {
             Follow our Medium
           </Button>
         </div>
-        <div className="flex mt-8 sm:flex-row flex-col sm:mt-20 justify-start items-center gap-3">
+        {/* <div className="flex mt-8 sm:flex-row flex-col sm:mt-20 justify-start items-center gap-3">
           <p className="uppercase text-textGray opacity-60 font-bold text-sm">
             Our Partners
           </p>
@@ -66,7 +66,7 @@ const Hero = () => {
               alt=""
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
