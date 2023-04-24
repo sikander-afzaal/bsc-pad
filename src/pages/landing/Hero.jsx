@@ -45,7 +45,7 @@ const Hero = () => {
           </Button>
           <Button>
             <FontAwesomeIcon icon={faTwitter} />
-            Follow our Medium
+            Follow our Twitter
           </Button>
         </div>
         {/* <div className="flex mt-8 sm:flex-row flex-col sm:mt-20 justify-start items-center gap-3">
