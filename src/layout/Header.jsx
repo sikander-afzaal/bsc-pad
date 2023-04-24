@@ -5,12 +5,13 @@ const Header = () => {
   const [headerToggle, setHeaderToggle] = useState(false);
   return (
     <div className="wrapper sticky top-0 left-0 z-50 bg-dark shadow-header">
-      <nav className="contain justify-between min-h-[55px] items-center gap-2">
+      <nav className="contain justify-between min-h-[65px] items-center gap-2">
         <div className="flex justify-start items-center gap-1">
-          <img src="/logo.png" className="max-w-[20px] object-contain" alt="" />
-          <p className="text-[26px] text-primaryYellow font-bold leading-[1]">
-            pulsepad
-          </p>
+          <img
+            src="/logo.png"
+            className="max-w-[185px] object-contain"
+            alt=""
+          />
         </div>
         <div
           className={`sm:static fixed top-0 ${
@@ -19,7 +20,7 @@ const Header = () => {
         >
           <button
             onClick={() => setHeaderToggle(false)}
-            className="flex w-full max-w-[350px] sm:w-auto sm:text-sm text-lg font-normal text-white bg-yellowGr px-[18px] rounded-full py-1 border border-solid border-primaryYellow hover:shadow-hoverBtn transition-shadow duration-200 justify-center items-center gap-1"
+            className="flex w-full max-w-[350px] sm:w-auto sm:text-sm text-lg font-normal text-white bg-rainbowGr px-[18px] rounded-full py-1  transition-shadow duration-200 justify-center items-center gap-1"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +78,7 @@ const Header = () => {
             onClick={() => setHeaderToggle(false)}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            fill="#f1b90c"
+            fill="white"
             className="w-6 h-6 z-[90] relative cursor-pointer sm:hidden block "
           >
             <path
@@ -91,7 +92,7 @@ const Header = () => {
             onClick={() => setHeaderToggle(true)}
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            fill="#f1b90c"
+            fill="white"
             className="w-6 h-6 z-[90] relative cursor-pointer sm:hidden block"
           >
             <path

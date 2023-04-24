@@ -19,13 +19,13 @@ const Hero = () => {
           distribute tokens and raise liquidity.
         </p>
         <div className="flex justify-center items-center gap-5 flex-wrap w-full">
-          <button className="bg-primaryYellow sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px] hover:shadow-hoverBtn transition-shadow">
+          <button className="bg-rainbowGr sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px]  transition-shadow">
             View All Projects
           </button>
-          <button className="bg-[#1FC7D4] sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px]  px-5 flex justify-center items-center gap-2 py-[10px] hover:shadow-pancakeSwap transition-shadow">
+          <button className="bg-rainbowGr sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px]  px-5 flex justify-center items-center gap-2 py-[10px]  transition-shadow">
             BUY ON UNISWAP
           </button>
-          <button className="bg-[#02bf02] sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px] hover:shadow-ido transition-shadow">
+          <button className="bg-rainbowGr sm:w-auto w-full max-w-[350px] sm:max-w-none text-white uppercase rounded-full text-base font-medium  min-w-[120px] px-5 py-[10px]  transition-shadow">
             Apply for ido
           </button>
 

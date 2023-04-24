@@ -13,6 +13,8 @@ export default {
         textGray: "#c0c0c0",
       },
       backgroundImage: {
+        rainbowGr:
+          "linear-gradient(210deg, #00eaff 0%, #0080ff 25%, #8000ff 50%, #e619e6 75%, #f00 100%)",
         yellowGr: "linear-gradient(to right, #f1b90c, #F0B90B)",
         title: "linear-gradient(180deg, #1a1a1a 0%, #eef3fc 100%)",
       },
