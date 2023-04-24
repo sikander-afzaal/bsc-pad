@@ -12,7 +12,7 @@ const About = () => {
                 What is PulsePad
               </h4>
               <h3 className="text-lg font-medium text-textGray ">
-                The pulse Launch Pad is the first decentralized IDO platform for
+                The Pulse Launch Pad is the first decentralized IDO platform for
                 the Pulse Chain Network.
               </h3>
               <p className="text-base text-white text-opacity-60">
