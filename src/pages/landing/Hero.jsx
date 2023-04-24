@@ -15,7 +15,7 @@ const Hero = () => {
           CHAIN NETWORK.
         </h2>
         <p className="text-textGray uppercase opacity-60 text-base sm:text-lg lg:text-xl max-w-[800px]">
-          pulsepad will empower crypto currency projects with the ability to
+          PulsePad will empower crypto currency projects with the ability to
           distribute tokens and raise liquidity.
         </p>
         <div className="flex justify-center items-center gap-5 flex-wrap w-full">

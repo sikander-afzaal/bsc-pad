@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="wrapper py-4">
       <div className="contain sm:flex-row flex-col justify-between items-center gap-2">
         <p className="text-sm text-[#6c757d]">
-          Copyright © 2023. All Rights Reserved by pulsepad
+          Copyright © 2023. All Rights Reserved by PulsePad
         </p>
         <p className="text-sm text-[#6c757d]">v1.3.6</p>
         <div className="flex justify-center items-center gap-3">
